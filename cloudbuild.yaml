@@ -7,4 +7,3 @@ steps:
     args: ['run', 'deploy', 'test-flask-cloud-run', '--image', 'gcr.io/$PROJECT_ID/test-flask-cloud-run', '--region', 'us-central1', '--platform', 'managed']
 options:
   logging: CLOUD_LOGGING_ONLY
-
